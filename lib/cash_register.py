@@ -3,7 +3,7 @@ class CashRegister:
         self.discount = discount
         self.total = 0
         self.items = []
-        self.last_transaction = 0  # Stores last transaction amount for voiding
+        self.last_transaction = 0  
 
     def add_item(self, title, price, quantity=1):
         self.total += price * quantity
